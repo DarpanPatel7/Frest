@@ -4,6 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Frest.Webs", "Frest.Webs.csproj", "{1C5F16D5-3832-41B4-B6FE-574F09F2C550}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0840AD8B-5AD3-48F0-8AF2-72ED406AFC82} = {0840AD8B-5AD3-48F0-8AF2-72ED406AFC82}
+		{22270FEA-7F35-4AB3-A0E4-1BCE32EF837E} = {22270FEA-7F35-4AB3-A0E4-1BCE32EF837E}
+		{D80995B0-2EE6-44FA-AF86-D391743199C2} = {D80995B0-2EE6-44FA-AF86-D391743199C2}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frest.Common", "..\Frest.Common\Frest.Common.csproj", "{41D023C2-1257-40D4-AEA1-B047BD068B51}"
 EndProject
